@@ -1,0 +1,63 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body 
+{
+    background-image: url("./bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.inside 
+{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin: 25px;
+}
+
+input 
+{
+    width: 100%;
+    padding: 15px;
+}
+
+button 
+{
+    width: 50%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    background-color: coral;
+    color: white;
+}
+
+button:hover
+{
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width: 660px)
+
+{
+   .video-display 
+   {
+    width: 25%;
+   }
+}
